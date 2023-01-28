@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:package_of_the_day/views/FlutterSecureStorage/secure_storage.dart';
+import 'package:package_of_the_day/views/flutter_secure_storage/secure_storage.dart';
 
 class FlutterSecureStorageScreen extends StatefulWidget {
   const FlutterSecureStorageScreen({Key? key}) : super(key: key);

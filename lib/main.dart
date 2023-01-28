@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
+import 'views/environment/environment.dart';
 import 'views/home.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  //Set up environment values
+  await Environment().init();
+
   runApp(const MyApp());
 }
 
