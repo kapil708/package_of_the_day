@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'views/environment/environment.dart';
+import 'views/flutter_dotenv/environment.dart';
 import 'views/home.dart';
 
 void main() async {

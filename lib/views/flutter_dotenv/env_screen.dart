@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:package_of_the_day/views/environment/environment.dart';
+import 'package:package_of_the_day/views/flutter_dotenv/environment.dart';
 
 class EnvScreen extends StatelessWidget {
   const EnvScreen({Key? key}) : super(key: key);
@@ -14,8 +14,11 @@ class EnvScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("API_URL: ${Environment.apiUrl}"),
+            const SizedBox(height: 16),
             Text("BASE_URL: ${Environment.baseUrl}"),
+            const SizedBox(height: 16),
             Text("SENTRY_DSN: ${Environment.sentryDSN}"),
+            const SizedBox(height: 16),
             Text("GOOGLE_API_KEY: ${Environment.googleApiKey}"),
           ],
         ),

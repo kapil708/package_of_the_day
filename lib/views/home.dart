@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:package_of_the_day/views/environment/env_screen.dart';
+import 'package:package_of_the_day/views/flutter_dotenv/env_screen.dart';
 import 'package:package_of_the_day/views/flutter_secure_storage/flutter_secure_storage_screen.dart';
 
 class Home extends StatelessWidget {
